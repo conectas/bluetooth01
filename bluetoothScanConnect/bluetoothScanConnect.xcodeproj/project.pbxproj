@@ -22,6 +22,8 @@
 		F8C75AA01C821D4A00527160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8C75AA31C821D4A00527160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8C75AA51C821D4A00527160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C75AAB1C821E7000527160 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		F8C75AAC1C821E7100527160 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,9 @@
 		F8C75A981C821D4A00527160 /* bluetoothScanConnect */ = {
 			isa = PBXGroup;
 			children = (
+				F8C75A9D1C821D4A00527160 /* Main.storyboard */,
 				F8C75A991C821D4A00527160 /* AppDelegate.swift */,
 				F8C75A9B1C821D4A00527160 /* ViewController.swift */,
-				F8C75A9D1C821D4A00527160 /* Main.storyboard */,
 				F8C75AA01C821D4A00527160 /* Assets.xcassets */,
 				F8C75AA21C821D4A00527160 /* LaunchScreen.storyboard */,
 				F8C75AA51C821D4A00527160 /* Info.plist */,
@@ -147,6 +149,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8C75A9E1C821D4A00527160 /* Base */,
+				F8C75AAB1C821E7000527160 /* de */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8C75AA31C821D4A00527160 /* Base */,
+				F8C75AAC1C821E7100527160 /* de */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +202,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -237,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
